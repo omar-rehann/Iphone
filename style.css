@@ -1,0 +1,136 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .continer {
+        background-color: black;
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .continer header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .continer header .logo img {
+        width: 40px;
+        margin: 10px 10px;
+    }
+    
+    .continer header nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .continer header nav ul li {
+        margin: 10px 20px;
+    }
+    
+    .continer header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font: bold;
+        transition: 1s;
+    }
+    
+    .continer header nav ul li:hover a {
+        color: red;
+    }
+    
+    .continer .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        margin-bottom: 40px;
+    }
+    
+    .continer .content .text {
+        width: 50%;
+        margin-left: 20px;
+    }
+    
+    .continer .content .text h1 {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .continer .content .text p {
+        color: white;
+        padding: 3px;
+    }
+    
+    .continer .content .text button {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: white;
+        border: none;
+        color: black;
+        margin: 10px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .continer .content .text button:hover {
+        background-color: #ff0000;
+        color: white;
+    }
+    
+    .continer .content .image {
+        margin: auto;
+    }
+    
+    .continer .icon {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .continer .icon img {
+        width: 50px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .continer .icon img:hover {
+        transform: scale(1.1);
+    }
+    
+    @media (max-width:767px) {
+        .continer .content .text {
+            width: 100%;
+            margin-left: 20px;
+        }
+        .continer .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 10px auto;
+            margin-bottom: 60px;
+        }
+        .continer .icon {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 30px;
+            display: flex;
+        }
+    }

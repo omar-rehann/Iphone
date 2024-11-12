@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="continer">
+        <header>
+            <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Products</a>
+                    </li>
+                    <li>
+                        <a href="">News</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h1>Iphone 13 Pro Max</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem labore fuga, cum quisquam ut perferendis deserunt. Obcaecati voluptatibus deleniti ut!</p>
+                <button>All Product</button>
+
+            </div>
+            <div class="image">
+                <img class="img" src="img/0.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="img/0.png" onclick="phone(this.src),colors('#000' ) " alt=" ">
+                <img src="img/1.png " onclick="phone(this.src),colors('#247ec8' )  " alt=" ">
+                <img src="img/2.png " onclick="phone(this.src),colors('#1e1e1e' )  " alt=" ">
+                <img src="img/3.png " onclick="phone(this.src) ,colors('#f5deb3' ) " alt=" ">
+                <img src="img/4.png " onclick="phone(this.src) ,colors('#ff0000' ) " alt=" ">
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="main.js "></script>
+
+</body>
+
+</html>
